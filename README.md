@@ -91,5 +91,4 @@ SMTP_PASSWORD=your_app_password
 
 ---
 
-## 📝 라이선스
-본 프로젝트는 교육적 목적의 세미 프로젝트이며, 사용된 영화 데이터의 저작권은 TMDB에 있습니다.
+<video src="https://github.com/user-attachments/assets/f55ada47-473d-4807-aac4-d47210d80ad0" controls width="100%">
