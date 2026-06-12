@@ -1,94 +1,124 @@
-# 🎬 WhatFlix (왓플릭스) - 종합 영화 커뮤니티 플랫폼
+<div align=center>
+  <img width="500" height="120" alt="Image" src="https://github.com/user-attachments/assets/662e44d2-3f4d-412c-a0f4-484e763d47b7" /><br>
+  <h1>WhatFlix - 종합 영화 커뮤니티 플랫폼</h1>
+</div>
+<br>
 
-**WhatFlix**는 최신 영화 정보 탐색, AI 기반 추천, 그리고 사용자 간의 활발한 소통을 지원하는 국내 최고의 영화 커뮤니티 플랫폼을 목표로 합니다. 단순한 정보 제공을 넘어, 기술 기반의 혁신적인 사용자 경험을 선사합니다.
+
+## 목차
+* 프로젝트소개
+* 개발기간
+* 기술스택
+* ERD
+* 담당기능
+* 기능설명
+<br>
 
 
-## 🌟 핵심 특징
+## 프로젝트소개
+<div>
+  WhatFlix는 단순한 영화 정보 제공을 넘어 <br>
+  사용자의 감성과 상황에 맞춘 AI 기반 추천 서비스와 실시간 데이터 연동을 통해 <br>
+  최적화된 영화 경험을 선사하는 커뮤니티 기반 플랫폼입니다.
+</div>
+<br>
 
-### 1. 지능형 영화 추천 및 탐색 (AI & API Integration)
-- **Gemini AI 추천**: 사용자의 막연한 질문(예: "오늘 비 오는데 슬픈 영화 추천해줘")을 분석하여 Google Gemini AI가 맞춤형 영화 리스트를 제안합니다.
-- **TMDB 실시간 연동**: 전 세계 영화 데이터베이스(TMDB)와 연동하여 실시간 박스오피스, 포스터, 출연진, 유튜브 트레일러 정보를 제공합니다.
-- **데이터 통계**: 영화별 평점 통계 및 리뷰 분석을 통해 신뢰도 높은 영화 정보를 제공합니다.
 
-### 2. 활발한 커뮤니티 생태계
-- **다각화된 게시판**: 자유게시판(소통)과 영화리뷰게시판(심층 분석)을 분리하여 운영합니다.
-- **인터랙션 시스템**: 게시글 좋아요, 조회수 추적, 실시간 댓글 기능을 통해 사용자 참여를 유도합니다.
-- **마이페이지 활동**: 내가 쓴 글, 댓글, 찜한 영화(Wishlist)를 한눈에 관리할 수 있습니다.
+## 개발기간
+26/01/12 ~26/01/29 (3주)
+<br><br>
 
-### 3. 신뢰와 보안 (Trust & Security)
-- **E-mail OTP 인증**: 회원가입 및 주요 정보 수정 시 이메일을 통한 2차 인증(Jakarta Mail)을 거쳐 계정 보안을 강화했습니다.
-- **비밀 Q&A**: 민감한 문의사항은 작성자만 볼 수 있는 비밀글 기능을 지원합니다.
 
-### 4. 강력한 관리 도구 (Admin Dashboard)
-- **통합 대시보드**: 전체 회원 관리, 영화 데이터 갱신, 커뮤니티 정화 작업을 한곳에서 수행합니다.
+## Tech Stacks
+<div>
+  <h4>Frontend</h4>
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white">
+</div>
+<div>
+  <h4>Backend</h4>
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+  <img src="https://img.shields.io/badge/jsp-232F3E?style=for-the-badge&logo=jsp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
+</div>
+<div>
+  <h4>Database</h4>
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+</div> 
+<div>
+  <h4>Cloud</h4>
+  <img src="https://img.shields.io/badge/ams%20rds-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+</div> 
+<div>
+  <h4>API</h4>
+  <img src="https://img.shields.io/badge/google%20gemini-4285F4?style=for-the-badge&logo=google%20gemini&logoColor=white">
+  <img src="https://img.shields.io/badge/TMDB-232F3E?style=for-the-badge&logo=TMDB&logoColor=white">
+  <img src="https://img.shields.io/badge/Kakao-%23FFCD00.svg?style=for-the-badge&logo=kakao&logoColor=black">
+</div>
+<div>
+  <h4>Tools</h4>
+  <img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=for-the-badge&logo=eclipse-ide&logoColor=white">
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/slack-571673?style=for-the-badge&logo=slack&logoColor=white">
+</div>
+<br>
 
----
 
-## 🛠 기술 아키텍처 (Technical Stack)
+## ERD
+<img width="1162" height="957" alt="Image" src="https://github.com/user-attachments/assets/d0677c8d-4c23-43eb-bc98-3f7205808a89" />
+<br>
 
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript(ES6), jQuery, Bootstrap 5 |
-| **Backend** | Java 11, JSP & Servlet (Jakarta EE 10) |
-| **Database** | MySQL (AWS RDS), JDBC (Custom DBConnect) |
-| **API/AI** | Google Gemini API, TMDB API |
-| **DevOps** | AWS RDS, Git/GitHub |
 
----
+## 담당기능
+<div>
+  <h4>김성주(팀장): 영화/AI API 통합 및 관리자 대시보드</h4>
+  <h4>김현능: 커뮤니티 아키텍처 및 댓글 시스템</h4>
+  <h4>백진욱: 회원 인증 시스템, 마이페이지 구현</h4>
+  <h4>임소희: 영화 상세 정보 및 사용자 인터랙션(찜/리뷰)</h4>
+  <h4>조성진: 코드 테이블 생성</h4>
+</div>
+<br>
 
-## 📂 프로젝트 구조 (MVC Pattern)
 
-```text
-src/main/java
-├── movie/        # 영화 정보(TMDB), AI(Gemini), 리뷰/평점 처리
-├── board/        # 커뮤니티(자유, 리뷰), 댓글, 좋아요 시스템
-├── member/       # 회원가입, 로그인, 마이페이지, 관리자 기능
-├── support/      # 고객센터(FAQ, Q&A)
-├── mysql/        # DB 연결 및 공통 유틸리티
-└── config/       # API Key 및 설정 파일 관리
-
-src/main/webapp
-├── board/        # 게시판 관련 JSP (목록, 상세, 작성)
-├── movie/        # 영화 상세, 목록, AI 추천 화면
-├── profile/      # 마이페이지, 개인 정보 수정, 위시리스트
-├── signUp/       # 회원가입 및 이메일 인증 절차
-└── main/         # 메인 페이지 및 레이아웃
-```
-
----
-
-## 🚀 개발 환경 및 시작하기
-
-### 1. 전제 조건
-- Java JDK 17 이상
-- Apache Tomcat 10.1.x
-- MySQL Connector/J 8.0 이상
-
-### 2. 설정 (Security)
-`src/main/resources` 또는 `src/main/java/config`에 `secret2.properties` 파일을 생성하고 아래 정보를 입력해야 합니다.
-```properties
-# Database
-AWS_ACCESS_KEY=your_db_password
-
-# API Keys
-GEMINI_KEY=your_google_gemini_api_key
-TMDB_KEY=your_tmdb_api_key
-
-# Email (SMTP) - Optional
-SMTP_EMAIL=your_email
-SMTP_PASSWORD=your_app_password
-```
-
----
-
-## 🤝 팀 프로젝트 기여 (Class4 A조)
-
-- **김성주 (Team Leader)**: 영화/AI API 통합, 백엔드 설계
-- **임소희**: 회원 인증 시스템, 마이페이지 구현
-- **백진욱**: 커뮤니티 아키텍처 및 댓글 시스템
-- **김현능**: 영화 상세 정보 및 사용자 인터랙션(찜/리뷰)
-- **조성진**: 관리자 대시보드 및 고객 지원 UI
-
----
-
-<video src="https://github.com/user-attachments/assets/f55ada47-473d-4807-aac4-d47210d80ad0" controls width="100%">
+## 기능설명
+<div>
+  <h4>1. 메인페이지</h4>
+  <video src="https://github.com/user-attachments/assets/f55ada47-473d-4807-aac4-d47210d80ad0" controls width="100%">
+</div>
+<div>
+  <h4>2. 회원가입/로그인</h4>
+  <video src="https://github.com/user-attachments/assets/e905f669-9896-40a4-8677-b376d1ed0a73" controls width="100%"></video>
+</div>
+<div>
+  <h4>3. 영화 AI 추천</h4>
+  <video src="https://github.com/user-attachments/assets/4f393483-c13f-4648-a5df-9f8c05a45a55" controls width="100%"></video>
+</div>
+<div>
+  <h4>4. 영화 등록</h4>
+  <video src="https://github.com/user-attachments/assets/396822aa-199e-45b7-a5f1-5c2e8f5bcbe4" controls width="100%"></video>
+</div>
+<div>
+  <h4>5. 영화 위시, 한줄평 등록</h4>
+  <video src="https://github.com/user-attachments/assets/4e4852b2-a13e-489b-a39e-36749d587665" controls width="100%"></video>
+</div>
+<div>
+  <h4>6. 커뮤니티</h4>
+  <video src="https://github.com/user-attachments/assets/5c6953e9-bdeb-4a8f-8f5e-57c2e28269c9" controls width="100%"></video>
+</div>
+<div>
+  <h4>7. 고객지원</h4>
+  <video src="https://github.com/user-attachments/assets/5feecfa7-91da-4f5a-b7ff-01e235f86add" controls width="100%"></video>
+</div>
+<div>
+  <h4>7. 마이페이지</h4>
+  <video src="https://github.com/user-attachments/assets/1bf80aac-35b6-4b27-a938-e155124b790f" controls width="100%"></video>
+</div>
+<div>
+  <h4>8. 관리자페이지</h4>
+  <video src="https://github.com/user-attachments/assets/5e8ad839-f729-4c34-b708-4e61e0eae638" controls width="100%"></video>
+  <video src="" controls width="100%"></video>
+</div>
